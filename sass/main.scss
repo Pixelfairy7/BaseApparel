@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color:#fff;
+    img{
+        margin-left: 4em;
+    }
+}
+
+.main-content{
+    text-align: center;
+}
+.info{
+    margin-bottom: 1em;
+    
+    h1{
+        font-size: 3em;
+        font-weight: 400;
+        margin-top: 1.8em;
+        text-transform: uppercase;
+        span.pink{
+            color: hsl(0, 36%, 70%);
+            font-weight: 100;
+        }
+    }
+    p{
+        color: hsl(0, 36%, 70%);
+        line-height: 1em;
+        padding: 1.5em;
+    }
+}
+
+
+
+
+/*Media Queries */
+/*Mobile*/
+@media all and (min-width:375px){
+ img.hero{
+       min-width: 100%;
+   } 
+}
+
