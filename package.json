@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Pixelfairy7/BaseApparel#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
